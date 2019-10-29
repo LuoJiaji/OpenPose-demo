@@ -101,8 +101,8 @@ for pair in POSE_PAIRS:
         cv2.circle(imSkeleton, points[partA], 8, (255, 0, 0), thickness=-1, lineType=cv2.FILLED)
 
 plt.figure(figsize=(20,10))
-plt.subplot(121); plt.axis('off'); plt.imshow(imPoints);
+plt.subplot(121); plt.axis('off'); plt.imshow(imPoints)
 #plt.title('Displaying Points')
-plt.subplot(122); plt.axis('off'); plt.imshow(imSkeleton);
+plt.subplot(122); plt.axis('off'); plt.imshow(imSkeleton)
 #plt.title('Displaying Skeleton')
 plt.show()
